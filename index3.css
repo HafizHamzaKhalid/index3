@@ -1,0 +1,51 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+} */
+
+/* is code ko hm ak line m B LIKH STKHT HA uski practice nicht h */
+#firstpara{
+    background-color: red;
+    height: 100px;
+    width: 455px;
+    border-width: 4px; 
+    border-color: gold;
+    border-style: solid;
+    border-radius: 60px;
+}
+
+/* wo practice ya ha */
+#secondpara{
+    background-color: red;
+    height: 100px;
+    width: 455px;
+   border: 4px solid gold;
+    border-radius: 60px;
+}
+#thirddpara{
+    background-color: rgb(61, 16, 112);
+    height: 100px;
+    width: 455px;
+    border-top: 6px solid rgb(104, 248, 7);
+    border-right: 4px solid rgb(12, 8, 0);
+    /* isi trha border left or bottom b krskty hai */
+
+    border-radius: 60px; 
+}
+#forthpara{
+    /* image ko repeat hona sa bachana k lya background-repeat: no-repeat; likhna h 
+    or agr repeate-x ma likhy ge tw bs x m repeate hogi or y ma tw y ma */
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.pFmQpHNTE7ixFmSBIgmDEAHaE8&pid=Api&P=0&h=220);
+    background-repeat: no-repeat;
+    background-position: center center; /*background image ko center ma krna k lya isi trha center top bottom krsktynhai*/
+    height: 100px;
+    width: 455px;
+   border: 4px solid gold;
+    border-radius: 60px;
+
+}
